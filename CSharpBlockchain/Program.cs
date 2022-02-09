@@ -52,9 +52,6 @@ namespace CSharpBlockchain
 
         protected static void Init()
         {
-            // Load environment variables securely (before anything else can touch them)
-            DotEnv.Load("../../.env");
-
             // Setup the console window
             Console.SetWindowSize(90, 50);
             Console.SetBufferSize(90, 50);
