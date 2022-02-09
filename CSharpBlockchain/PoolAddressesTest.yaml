@@ -1,0 +1,131 @@
+﻿---
+tokens:
+  ELK: 0xe1c110e1b1b4a1ded0caf3e42bfbdbb7b5d7ce1c
+  AVAX: 0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7
+  # BTC
+  BTCbsc: 0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c
+  BTCmatic: 0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6-decimals=8
+  BTCftm: 0x321162cd933e2be498cd2267a90534a804051b11-decimals=8
+
+  BNB: 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c
+  CRO: 0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23
+  # DFYN
+  DFYNmatic: 0xc168e40227e4ebd8c1cae80f7a55a4f0e6d66c97
+  ELA: 0x517e9e5d46c1ea8ab6f78677d6114ef47f71f6c4
+  # ETH
+  ETHbsc: 0x2170ed0880ac9a755fd29b2688956bd959f933f8
+  ETHmatic: 0x7ceb23fd6bc0add59e62ac25578270cff1b9f619
+  ETHftm: 0x74b23882a30290451a17c44f4f05243b6b58c76d
+
+  FTM: 0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83
+  FUSE: 0x0BE9e53fd7EDaC9F859882AfdDa116645287C629
+  HOO: 0x3eff9d389d13d6352bfb498bcf616ef9b1beac87
+  HT: 0x5545153ccfca01fbd7dd11c0b23ba694d9509a6f
+  KCS: 0x4446fc4eb47f2f6586f9faab68b3498f86c07521
+  # Kyber
+  KNCbsc: 0xfe56d5892bdffc7bf58f2e84be1b2c32d21c308b
+  KNCmatic: 0x1c954e8fe737f99f68fa1ccda3e51ebdb291948c
+  MATIC: 0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270
+  # Matrix
+  MATRIXbsc: 0xc32bB619966B9a56cF2472528a36Fd099CE979E0
+  MATRIXmatic: 0x211f4e76fcb811ed2b310a232a24b3445d95e3bc
+  MOVR: 0x98878B06940aE243284CA214f92Bb71a2b032B8A
+  # JetSwap
+  pWINGS: 0x845e76a8691423fbc4ecb8dd77556cb61c09ee25
+  # Ramp
+  RAMPbsc: 0x8519ea49c997f50ceffa444d240fb655e89248aa
+  RAMPmatic: 0xaecebfcf604ad245eaf0d5bd68459c3a7a6399c2
+  rUSDbsc: 0x07663837218A003e66310a01596af4bf4e44623D
+  rUSDmatic: 0xfc40a4f89b410a1b855b5e205064a38fc29f5eb5
+  # Dollars
+  BUSDbsc: 0xe9e7cea3dedca5984780bafc599bd69add087d56-isdollar=true
+  BUSDfuse: 0x6a5F6A8121592BeCd6747a38d67451B310F7f156-isdollar=true
+  DAImatic: 0x8f3cf7ad23cd3cadbd9735aff958023239c6a063-isdollar=true
+  USDCcro: 0xc21223249ca28397b4b6541dffaecc539bff0c59-decimals=6-isdollar=true
+  USDCela: 0xa06be0f5950781ce28d965e5efc6996e88a8c141-decimals=6-isdollar=true
+  USDCftm: 0x04068da6c83afcfa0e13ba15a6696662335d5b75-decimals=6-isdollar=true
+  USDCmovr: 0xE3F5a90F9cb311505cd691a46596599aA1A0AD7D-decimals=6-isdollar=true
+  USDCmatic: 0x2791bca1f2de4661ed88a30c99a7a9449aa84174-decimals=6-isdollar=true
+  USDTe: 0xc7198437980c041c805a1edcba50c1ce5db95118-decimals=6-isdollar=true
+  USDTbsc: 0x55d398326f99059ff775485246999027b3197955-isdollar=true
+  USDThoo: 0xd16babe52980554520f6da505df4d1b124c815a7-decimals=6-isdollar=true
+  USDTheco: 0xa71edc38d189767582c38a3145b5873052c3e47a-decimals=18-isdollar=true
+  USDTku: 0x0039f574ee5cc39bdd162e9a88e3eb1f111baf48-decimals=18-isdollar=true
+  USDTmatic: 0xc2132d05d31c914a87c6611c10748aeb04b58e8f-decimals=6-isdollar=true
+  XDAI: 0xe91d153e0b41518a2ce8dd3d7944fa863463a97d-decimals=18-isdollar=true
+
+
+
+nets:
+- name: bsc
+  explorer: https://api.bscscan.com/api
+  apikey: C1R3UB1H4Z7BHTTB1BZDCQZF8PCKTYY8ZB
+  dexs:
+  - pair: USDTbsc-BNB
+    name: Pancake USDT-BNB
+    address: 0x16b9a82891338f9ba80e2d6970fdda79d1eb0dae
+  - pair: USDCbsc-ETHbsc
+    name: Pancake ETH-USDC
+    address: 0xea26b78255df2bbc31c1ebf60010d78670185bd0
+  pools:
+  - pair: ETHbsc-BNB
+    name: Knight ETH-BNB
+    address: 0x0ddF35e107b6014B5577e87e3BBCECa74df3e09A
+  - pair: BTCbsc-BNB
+    name: Knight BTC-BNB
+    address: 0xC71201ccE9d64B7C33E40FbeC058fA14597862fE
+  - pair: BNB-BUSDbsc
+    name: Knight BNB-BUSD
+    address: 0x28f8ED3Bb8795b11e9be8A6015aDd73ef7Cd3a14
+  - pair: BNB-BUSDbsc
+    name: Goose BNB-BUSD
+    address: 0x1b96b92314c44b159149f7e0303511fb2fc4774f
+  - pair: BTCbsc-BNB
+    name: Goose BTC-BNB
+    address: 0x7561eee90e24f3b348e1087a005f78b4c8453524
+  - pair: ETHbsc-BNB
+    name: Goose ETH-BNB
+    address: 0x70d8929d04b60af4fb9b58713ebcf18765ade422
+
+- name: Fantom FTM
+  explorer: https://api.ftmscan.com/api
+  apikey: VK9VD3CS7S44CG4TZ4Z1QPJ63PQTJQ4TRV
+  dexs:
+  - pair: USDCftm-FTM
+    name: Spooky USDC-FTM
+    address: 0x2b4c76d0dc16be1c31d4c1dc53bf9b45987fc75c
+  - pair: USDCftm-BTCftm
+    name: Spooky USDC-BTC DO NOT TRADE
+    address: 0x784178d58b641a4febf8d477a6abd28504273132
+  - pair: USDCftm-ETHftm
+    name: Spoooky USDC-ETH DO NOT TRADE
+    address: 0xa572bdf049382f1f98f9a430788dadd51a303969
+  pools:
+  - pair: ETHftm-FTM
+    name: Sushi ETH-WFTM
+    address: 0x3d0bd54c48c2c433ea6fed609cc3d5fb7a77622b
+  - pair: ETHftm-BTCftm
+    name: DFYN BTC-ETH
+    address: 0xbe8abb3b57925f81a49202224da633a436eadb66
+
+- name: matic
+  explorer: https://api.polygonscan.com/api
+  apikey: TBM9QRF6RATNFQQH5SQA8C3PW8SXUJR7D7
+  dexs:
+  - pair: USDCmatic-ETHmatic
+    name: QuickSwap USDC-WETH
+    address: 0x853ee4b2a13f8a742d64c8f088be7ba2131f670d
+  - pair: USDCmatic-BTCmatic
+    name: QuickSwap USDC-BTC
+    address: 0xf6a637525402643b0654a54bead2cb9a83c8b498
+  - pair: USDCmatic-MATIC
+    name: Quickswap USDC-MATIC
+    address: 0x6e7a5fafcec6bb1e78bae2a1f0b612012bf14827
+  pools:
+  - pair: MATIC-ETHmatic
+    name: Ape MATIC-ETH
+    address: 0x6cf8654e85ab489ca7e70189046d507eba233613
+  - pair: MATIC-BTCmatic
+    name: Ape MATIC-BTC
+    address: 0xe82635a105c520fd58e597181cbf754961d51e3e
+

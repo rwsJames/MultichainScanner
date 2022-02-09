@@ -1,0 +1,172 @@
+﻿---
+tokens:
+  ELK: 0xE1C110E1B1b4A1deD0cAf3E42BfBdbB7b5d7cE1C
+  ELKiotex: 0xe1cE1c0fa22EC693bAca6F5076bcdC4D0183DE1C
+  AVAX: 0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7
+  BNB: 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c
+  CRO: 0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23
+  ELA: 0x517e9e5d46c1ea8ab6f78677d6114ef47f71f6c4
+  FTM: 0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83
+  FUSE: 0x0BE9e53fd7EDaC9F859882AfdDa116645287C629
+  HOO: 0x3eff9d389d13d6352bfb498bcf616ef9b1beac87
+  HT: 0x5545153ccfca01fbd7dd11c0b23ba694d9509a6f
+  IOTX: 0xa00744882684c3e4747faefd68d283ea44099d03
+  KCS: 0x4446fc4eb47f2f6586f9faab68b3498f86c07521
+  MATIC: 0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270
+  MOVR: 0x98878B06940aE243284CA214f92Bb71a2b032B8A
+  BUSDfuse: 0x6a5F6A8121592BeCd6747a38d67451B310F7f156-isdollar=true
+  USDCcro: 0xc21223249ca28397b4b6541dffaecc539bff0c59-decimals=6-isdollar=true
+  USDCela: 0xa06be0f5950781ce28d965e5efc6996e88a8c141-decimals=6-isdollar=true
+  USDCftm: 0x04068da6c83afcfa0e13ba15a6696662335d5b75-decimals=6-isdollar=true
+  USDCmovr: 0xE3F5a90F9cb311505cd691a46596599aA1A0AD7D-decimals=6-isdollar=true
+  USDTe: 0xc7198437980c041c805a1edcba50c1ce5db95118-decimals=6-isdollar=true
+  USDTbsc: 0x55d398326f99059ff775485246999027b3197955-isdollar=true
+  USDThoo: 0xd16babe52980554520f6da505df4d1b124c815a7-decimals=6-isdollar=true
+  USDTheco: 0xa71edc38d189767582c38a3145b5873052c3e47a-decimals=18-isdollar=true
+  USDTiotex: 0x6fbcdc1169b5130c59e72e51ed68a84841c98cd1-decimals=6-isdollar=true
+  USDT_miotex: 0x3cdb7c48e70b854ed2fa392e21687501d84b3afc-decimals=6-isdollar=true
+  USDTku: 0x0039f574ee5cc39bdd162e9a88e3eb1f111baf48-decimals=18-isdollar=true
+  USDTmatic: 0xc2132d05d31c914a87c6611c10748aeb04b58e8f-decimals=6-isdollar=true
+  XDAI: 0xe91d153e0b41518a2ce8dd3d7944fa863463a97d-decimals=18-isdollar=true
+
+nets:
+- name: Avalanche AVAX
+  explorer: https://api.snowtrace.io/api
+  apikey: 88F6PWDZ3WP5HZZHXTIRGWQEI396UGXJFP
+  dexs:
+  - pair: USDTe-AVAX
+    name: Trader Joe USDTe AVAX
+    address: 0xed8cbd9f0ce3c6986b22002f03c6475ceb7a6256
+  - pair: USDTe-AVAX
+    name: Pangolin USDTe AVAX
+    address: 0xe28984e1ee8d431346d32bec9ec800efb643eef4
+  pools:
+  - pair: AVAX-ELK
+    address: 0x2612da8fc26efbca3cc3f8fd543bcba72b10ab59
+  - pair: AVAX-ELK
+    name: TraderJoe AVAX-ELK
+    address: 0x88d000e853d03e7d59ce602dff736dc39ad118fb
+
+- name: Binance BSC
+  explorer: https://api.bscscan.com/api
+  apikey: C1R3UB1H4Z7BHTTB1BZDCQZF8PCKTYY8ZB
+  dexs:
+  - pair: USDTbsc-BNB
+    name: PancakeSwap USDT BNB
+    address: 0x16b9a82891338f9ba80e2d6970fdda79d1eb0dae
+  pools:
+  - pair: ELK-BNB
+    address: 0x6aDB3c5a9673ffFe6502e3bdEC465AdC91Ab3C01
+
+- name: Cronos CRO
+  explorer: https://cronos.crypto.org/explorer/api
+  dexs:
+  - pair: USDCcro-CRO
+    name: VVS Finance CRO USDC
+    address: 0xe61db569e231b3f5530168aa2c9d50246525b6d6
+  pools:
+  - pair: ELK-CRO
+    address: 0xfe6379509c7134429f7b0aefdda6f2b74d82b6bc
+
+- name: Elastos ELA
+  explorer: https://esc.elastos.io/api
+  dexs:
+  - pair: USDCela-ELA
+    name: Glide USDC ELA
+    address: 0x6077b7990d3d0dfb5a50f1d207f67ac5955b999d
+  pools:
+  - pair: ELK-ELA
+    address: 0x8d78C926E50357fF447494fE090818F16Caf8C30
+
+- name: Fantom FTM
+  explorer: https://api.ftmscan.com/api
+  apikey: VK9VD3CS7S44CG4TZ4Z1QPJ63PQTJQ4TRV
+  dexs:
+  - pair: USDCftm-FTM
+    name: SpookySwap USDC FTM
+    address: 0x2b4c76d0dc16be1c31d4c1dc53bf9b45987fc75c
+  pools:
+  - pair: ELK-FTM
+    address: 0xA69409Ecb11bab2f443F204e6bB55cBafFca4B58
+
+- name: Iotex
+  explorer: https://babel-api.mainnet.iotex.io/
+  dexs: 
+  - pair: USDT_miotex-IOTX
+    name: Zoom USDT-IOTX
+    address: 0xb30ddcc6df9839669f50ec9202828826ec36ef7c
+  pools: 
+  - pair: ELKiotex-IOTX
+    address: 0xe4117ae71eab7ca0e7120c05994264504a86b3dd
+
+
+- name: Matic
+  explorer: https://api.polygonscan.com/api
+  apikey: TBM9QRF6RATNFQQH5SQA8C3PW8SXUJR7D7
+  dexs:
+  - pair: USDTmatic-MATIC
+    name: QuickSwap USDT-MATIC
+    address: 0x604229c960e5cacf2aaeac8be68ac07ba9df81c3
+  pools:
+  - pair: ELK-MATIC
+    address: 0x7cb0703aa37601a02798bdff63a18af2dd082572
+
+- name: Fuse
+  explorer: https://explorer.fuse.io/api
+  dexs:
+  - pair: BUSDfuse-FUSE
+    name: FuseFi BUSD-FUSE
+    address: 0x2e7DeDEfC1b40eb2C935A5d07ACDb8F8a9B2A91D
+  pools:
+  - pair: FUSE-ELK
+    address: 0x6c6D9856C44B2A2248D093f3797Db66a706225D6
+
+- name: Hoo
+  explorer: https://api.hooscan.com/api
+  apikey: EGA47JI47EKEEIA2HDT6VKYNJGBN1QCNEH
+  dexs:
+  - pair: USDThoo-HOO
+    name: PuddingSwap HOO-USDT
+    address: 0xc755b69b0277d7c935466b41f266142d4a9d265b
+  pools:
+  - pair: ELK-HOO
+    address: 0xf5971b84b80249750f3acd54eb62e878a769bfa2
+
+- name: Huobi HECO
+  explorer: https://api.hecoinfo.com/api
+  apikey: BEJU4K66GH2R77K8NHBWWV4KCCAC6DJ1H3
+  dexs:
+  - pair: USDTheco-HT
+    name: mdex HT-USDT
+    address: 0x499b6e03749b4baf95f9e70eed5355b138ea6c31
+  pools:
+  - pair: ELK-HT
+    address: 0xec4139085ba2fdd7cd5278751e36acf3c5f0267d
+
+#- name: KuCoin KCC
+#  explorer:
+#  apikey:
+#  dexs:
+#  - pair: USDTku-KCS
+#    name: KuSwap USDT-KCS
+#    address: 0x6c31e0f5c07b81a87120cc58c4dcc3fbafb00367
+#  pools:
+#  - pair: KCS-ELK
+#    address: 0xf9cf281649ca69546ff6e48359c6ce62a89c4dd0
+#
+- name: Moonriver MOVR
+  explorer: https://api-moonriver.moonscan.io/api
+  apikey: 39DISPSZZKWIM49HFHVXZN6YSKPD1C45CU
+  dexs:
+  - pair: USDCmovr-MOVR
+    name: Solarswap MOVR-USDC
+    address: 0xe537f70a8b62204832b8ba91940b77d3f79aeb81
+  pools:
+  - pair: ELK-MOVR
+    address: 0xF2E64091F3A35Cd0b8d229381902E10d054B3587
+
+- name: xDAI
+  explorer: https://www.blockscout.com/xdai/mainnet/api
+  pools:
+  - pair: ELK-XDAI
+    address: 0x52eeFf79EecEAf8162b4e5fA383dCFEa4D78dC98

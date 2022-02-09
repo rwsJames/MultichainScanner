@@ -1,0 +1,101 @@
+﻿---
+tokens:
+  ELK: 0xe1c110e1b1b4a1ded0caf3e42bfbdbb7b5d7ce1c
+  AVAX: 0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7
+  BTCmatic: 0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6-decimals=8
+  BNB: 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c
+  CRO: 0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23
+  ELA: 0x517e9e5d46c1ea8ab6f78677d6114ef47f71f6c4
+  ETHmatic: 0x7ceb23fd6bc0add59e62ac25578270cff1b9f619
+  FTM: 0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83
+  FUSE: 0x0BE9e53fd7EDaC9F859882AfdDa116645287C629
+  HOO: 0x3eff9d389d13d6352bfb498bcf616ef9b1beac87
+  HT: 0x5545153ccfca01fbd7dd11c0b23ba694d9509a6f
+  KCS: 0x4446fc4eb47f2f6586f9faab68b3498f86c07521
+  MATIC: 0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270
+  MOVR: 0x98878B06940aE243284CA214f92Bb71a2b032B8A
+  pWINGS: 0x845e76a8691423fbc4ecb8dd77556cb61c09ee25
+  BUSDfuse: 0x6a5F6A8121592BeCd6747a38d67451B310F7f156-isdollar=true
+  DAImatic: 0x8f3cf7ad23cd3cadbd9735aff958023239c6a063-isdollar=true
+  USDCcro: 0xc21223249ca28397b4b6541dffaecc539bff0c59-decimals=6-isdollar=true
+  USDCela: 0xa06be0f5950781ce28d965e5efc6996e88a8c141-decimals=6-isdollar=true
+  USDCftm: 0x04068da6c83afcfa0e13ba15a6696662335d5b75-decimals=6-isdollar=true
+  USDCmovr: 0xE3F5a90F9cb311505cd691a46596599aA1A0AD7D-decimals=6-isdollar=true
+  USDCmatic: 0x2791bca1f2de4661ed88a30c99a7a9449aa84174-decimals=6-isdollar=true
+  USDTe: 0xc7198437980c041c805a1edcba50c1ce5db95118-decimals=6-isdollar=true
+  USDTbsc: 0x55d398326f99059ff775485246999027b3197955-isdollar=true
+  USDThoo: 0xd16babe52980554520f6da505df4d1b124c815a7-decimals=6-isdollar=true
+  USDTheco: 0xa71edc38d189767582c38a3145b5873052c3e47a-decimals=18-isdollar=true
+  USDTku: 0x0039f574ee5cc39bdd162e9a88e3eb1f111baf48-decimals=18-isdollar=true
+  USDTmatic: 0xc2132d05d31c914a87c6611c10748aeb04b58e8f-decimals=6-isdollar=true
+  XDAI: 0xe91d153e0b41518a2ce8dd3d7944fa863463a97d-decimals=18-isdollar=true
+
+#  - pair: 
+#    name: 
+#    address: 
+
+nets:
+- name: matic
+  explorer: https://api.polygonscan.com/api
+  apikey: TBM9QRF6RATNFQQH5SQA8C3PW8SXUJR7D7
+  dexs:
+  - pair: USDCmatic-ETHmatic
+    name: QuickSwap USDC-WETH
+    address: 0x853ee4b2a13f8a742d64c8f088be7ba2131f670d
+  - pair: USDCmatic-BTCmatic
+    name: QuickSwap USDC-BTC
+    address: 0xf6a637525402643b0654a54bead2cb9a83c8b498
+  - pair: USDCmatic-MATIC
+    name: Quickswap USDC-MATIC
+    address: 0x6e7a5fafcec6bb1e78bae2a1f0b612012bf14827
+  pools:
+  - pair: BTCmatic-ETHmatic
+    name: PolyCat WBTC-WETH
+    address: 0xbbbd54c1cd649288d2e584917778eeccd8d8254d
+  - pair: MATIC-BTCmatic
+    name: PolyCat MATIC-WBTC
+    address: 0x3b02a89628a375faf4fc5ec83566801e9d9dce02
+  - pair: MATIC-USDCmatic
+    name: PolyCat MATIC-USDC
+    address: 0x8a4ceb4dffa238539c5d62ce424980e8fdb21ebc
+  - pair: MATIC-DAImatic
+    name: PolyCat MATIC-DAI
+    address: 0x9ce65ae286e74f1268d19ab9b25f102c25dbdcb4
+  - pair: MATIC-ETHmatic
+    name: PolyCat WMATIC-WETH
+    address: 0xc4e90ae0298e0e7be0102cce64089231e1e2d67c
+  - pair: BTCmatic-DAImatic
+    name: PolyCat WBTC-DAI
+    address: 0xe27855cce2ddc3a2e44f1ad3cdc3ec6ce4903bba
+  - pair: BTCmatic-USDTmatic
+    name: PolyCat WBTC-USDT
+    address: 0x0509083749716b68f0fdb490a59ca62f2cffebb9
+  - pair: MATIC-USDTmatic
+    name: PoolyCat WMATIC-USDT
+    address: 0x4db1087154cd5b33fa275a88b183619f1a6f6614
+  #JetSwap
+  - pair: pWINGS-MATIC
+    name: JetSwap pWINGS-MATIC
+    address: 0xA0A6e9A5185d5737CF6F7920CB417EA2F07F03B3
+  - pair: ETHmatic-MATIC
+    name: JetSwap ETH-MATIC
+    address: 0x951E38875a93df95bbd24fe31f409b7933B35BED
+  - pair: ETHmatic-USDCmatic
+    name: JetSwap ETH-USDC
+    address: 0xFEFF91C350bB564cA5Dc7D6F7DcD12ac092F94FF
+  - pair: ETHmatic-USDTmatic
+    name: JetSwap ETH-USDT
+    address: 0xc7f1B47F4ed069E9B34e6bD59792B8ABf5a66339
+  - pair: MATIC-USDCmatic
+    name: JetSwap MATIC-USDC
+    address: 0x5E58e0CeD3a272CAeb8bA00F4A4C2805Df6BE495
+  - pair: MATIC-USDTmatic
+    name: JetSwap MATIC-USDT
+    address: 0x101640e107C4a72DeC79826768C239F1eB48cc85
+  - pair: BTCmatic-USDTmatic
+    name: JetSwap BTC-USDT
+    address: 0x7641d6b873877007697D526EF3C50908779a6993
+  - pair: BTCmatic-ETHmatic
+    name: JetSwap BTC-ETH
+    address: 0x173E90f2a94Af3b075DeEC7e64Df4d70EfB4Ac3D
+

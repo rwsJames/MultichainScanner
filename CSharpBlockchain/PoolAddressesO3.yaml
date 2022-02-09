@@ -1,0 +1,106 @@
+﻿---
+tokens:
+  ELK: 0xe1c110e1b1b4a1ded0caf3e42bfbdbb7b5d7ce1c
+  AVAX: 0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7
+  # BTC
+  BTCbsc: 0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c
+  BTCmatic: 0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6-decimals=8
+  BTCftm: 0x321162cd933e2be498cd2267a90534a804051b11-decimals=8
+
+  BNB: 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c
+  CRO: 0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23
+  # DFYN
+  DFYNmatic: 0xc168e40227e4ebd8c1cae80f7a55a4f0e6d66c97
+  ELA: 0x517e9e5d46c1ea8ab6f78677d6114ef47f71f6c4
+  # ETH
+  ETHbsc: 0x2170ed0880ac9a755fd29b2688956bd959f933f8
+  ETHmatic: 0x7ceb23fd6bc0add59e62ac25578270cff1b9f619
+  ETHftm: 0x74b23882a30290451a17c44f4f05243b6b58c76d
+
+  FTM: 0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83
+  FUSE: 0x0BE9e53fd7EDaC9F859882AfdDa116645287C629
+  HOO: 0x3eff9d389d13d6352bfb498bcf616ef9b1beac87
+  HT: 0x5545153ccfca01fbd7dd11c0b23ba694d9509a6f
+  KCS: 0x4446fc4eb47f2f6586f9faab68b3498f86c07521
+  # Kyber
+  KNCbsc: 0xfe56d5892bdffc7bf58f2e84be1b2c32d21c308b
+  KNCmatic: 0x1c954e8fe737f99f68fa1ccda3e51ebdb291948c
+  MATIC: 0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270
+  # Matrix
+  MATRIXbsc: 0xc32bB619966B9a56cF2472528a36Fd099CE979E0
+  MATRIXmatic: 0x211f4e76fcb811ed2b310a232a24b3445d95e3bc
+  MOVR: 0x98878B06940aE243284CA214f92Bb71a2b032B8A
+
+  # O3
+  O3: 0xee9801669c6138e84bd50deb500827b776777d28
+
+  # JetSwap
+  pWINGS: 0x845e76a8691423fbc4ecb8dd77556cb61c09ee25
+  # Ramp
+  RAMPbsc: 0x8519ea49c997f50ceffa444d240fb655e89248aa
+  RAMPmatic: 0xaecebfcf604ad245eaf0d5bd68459c3a7a6399c2
+  rUSDbsc: 0x07663837218A003e66310a01596af4bf4e44623D
+  rUSDmatic: 0xfc40a4f89b410a1b855b5e205064a38fc29f5eb5
+  # Dollars
+  BUSDbsc: 0xe9e7cea3dedca5984780bafc599bd69add087d56-isdollar=true
+  BUSDfuse: 0x6a5F6A8121592BeCd6747a38d67451B310F7f156-isdollar=true
+  DAImatic: 0x8f3cf7ad23cd3cadbd9735aff958023239c6a063-isdollar=true
+  HUSDheco: 0x0298c2b32eae4da002a15f36fdf7615bea3da047-decimals=8-isdollar=true
+  USDCcro: 0xc21223249ca28397b4b6541dffaecc539bff0c59-decimals=6-isdollar=true
+  USDCe: 0xa7d7079b0fead91f3e65f86e8915cb59c1a4c664-decimals=6-isdollar=true
+  USDCela: 0xa06be0f5950781ce28d965e5efc6996e88a8c141-decimals=6-isdollar=true
+  USDCftm: 0x04068da6c83afcfa0e13ba15a6696662335d5b75-decimals=6-isdollar=true
+  USDCmovr: 0xE3F5a90F9cb311505cd691a46596599aA1A0AD7D-decimals=6-isdollar=true
+  USDCmatic: 0x2791bca1f2de4661ed88a30c99a7a9449aa84174-decimals=6-isdollar=true
+  USDTarbi: 0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9-decimals=6-isdollar=true
+  USDTe: 0xc7198437980c041c805a1edcba50c1ce5db95118-decimals=6-isdollar=true
+  USDTbsc: 0x55d398326f99059ff775485246999027b3197955-isdollar=true
+  USDThoo: 0xd16babe52980554520f6da505df4d1b124c815a7-decimals=6-isdollar=true
+  USDTheco: 0xa71edc38d189767582c38a3145b5873052c3e47a-decimals=18-isdollar=true
+  USDTku: 0x0039f574ee5cc39bdd162e9a88e3eb1f111baf48-decimals=18-isdollar=true
+  USDTmatic: 0xc2132d05d31c914a87c6611c10748aeb04b58e8f-decimals=6-isdollar=true
+  XDAI: 0xe91d153e0b41518a2ce8dd3d7944fa863463a97d-decimals=18-isdollar=true
+
+
+
+nets:
+- name: arbitrum
+  explorer: https://api.arbiscan.io/api
+  apikey: QKQZFDM9RM4NYVW26DF7PRMDVF3PQWBJDH
+  pools:
+  - pair: USDTarbi-O3
+    name: Sushi USDT-O3
+    address: 0x2a8104c4e5e0ccaccd84e3ab0f463fbaa7498981
+
+- name: avalanche
+  explorer: https://api.snowtrace.io/api
+  apikey: 88F6PWDZ3WP5HZZHXTIRGWQEI396UGXJFP
+  pools:
+  - pair: USDCe-O3
+    name: Joe USDCe-O3
+    address: 0x19c6c7176218c96947636a1a48f138f3788fec5f
+
+- name: bsc
+  explorer: https://api.bscscan.com/api
+  apikey: C1R3UB1H4Z7BHTTB1BZDCQZF8PCKTYY8ZB
+  pools:
+  - pair: BUSDbsc-O3
+    name: Pancake BUSD-O3
+    address: 0x7759283571da8c0928786a96ae601944e10461ff
+
+- name: heco
+  explorer: https://api.hecoinfo.com/api
+  apikey: BEJU4K66GH2R77K8NHBWWV4KCCAC6DJ1H3
+  pools:
+  - pair: HUSDheco-O3
+    name: mdex HUSD-O3 (low liq)
+    address: 0xa83925175646527cd5f3c0ffe0f39a6c32af32fb
+
+- name: matic
+  explorer: https://api.polygonscan.com/api
+  apikey: TBM9QRF6RATNFQQH5SQA8C3PW8SXUJR7D7
+  pools:
+  - pair: USDCmatic-O3
+    name: Quick USDC-O3
+    address: 0xd84a040428c102ee6109e7f4236e2fb40135f1e8
+
